@@ -17,7 +17,7 @@ def _get_jenv():
                                     undefined=DebugUndefined)
         frappe.utils.jinja.set_filters(jenv)
 
-        jenv.globals.update(frappe.utils.jinja.get_allowed_functions_for_jenv())
+        #jenv.globals.update(frappe.utils.jinja.get_allowed_functions_for_jenv())
         jenv.globals.update(_get_jenv_customization('methods'))
 
         frappe.local.jenv = jenv
