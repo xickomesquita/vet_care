@@ -1157,7 +1157,7 @@
         "parenttype": null,
         "property": "search_fields",
         "property_type": "Data",
-        "value": "customer_name,email_info"
+        "value": "customer_name"
     },
     {
         "_assign": null,
