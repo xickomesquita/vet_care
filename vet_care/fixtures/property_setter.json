@@ -1157,7 +1157,7 @@
         "parenttype": null,
         "property": "search_fields",
         "property_type": "Data",
-        "value": "customer_name,vc_cpr,mobile_number,mobile_number_2,email_info,vc_cirrusvet"
+        "value": "customer_name,email_info"
     },
     {
         "_assign": null,
